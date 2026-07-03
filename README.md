@@ -19,7 +19,7 @@ The project extends a prior senior thesis (Bahrain Polytechnic, Best Research Aw
 ## Dataset
 
 **Source:** Bruinsma et al. (2024) — *Electrical signals of an induction motor with different types of faults*  
-4TU.ResearchData. https://doi.org/10.4121/ae694be5-b76b-4693-a9e7-ba616c82b875
+4TU.ResearchData. https://data.4tu.nl/datasets/2b61183e-c14f-4131-829b-cc4822c369d0
 
 | Property | Value |
 |----------|-------|
@@ -129,7 +129,7 @@ pyarrow
 
 ## References
 
-- Bruinsma et al. (2024) — 4TU.ResearchData. https://doi.org/10.4121/ae694be5-b76b-4693-a9e7-ba616c82b875
+- Bruinsma et al. (2024) — 4TU.ResearchData. https://data.4tu.nl/datasets/2b61183e-c14f-4131-829b-cc4822c369d0
 - Maraaba et al. (2018) — Energies, MDPI. https://www.mdpi.com/1996-1073/11/3/653
 - IEA (2020) — Global Efficiency Intelligence. https://www.globalefficiencyintel.com/new-blog/2017/infographic-energy-industrial-motor-systems
 - Senior Thesis: Ali Ashoor & Sanad Sanad (2025) — Rule-based MCSA Fault Detection System, Bahrain Polytechnic (Best Research Award)
