@@ -82,7 +82,7 @@ The main notebook `lightning_talk_2_mcsa.ipynb` follows this structure:
 
 ## Key EDA Finding
 
-Maximum Pearson correlation between raw signal amplitude and the condition label is **≈ 0.007** — effectively zero across all 15 signal columns. Fault signatures (BRB sidebands at `f ± 2sf`, SWF harmonics at `3f`, `5f`) manifest exclusively in the frequency domain. This confirms that FFT-based feature extraction is a prerequisite before any ML classifier can work.
+Maximum Pearson correlation between raw signal amplitude and the condition label is **≈ 0.007** — effectively zero across all 15 signal columns. Fault signatures (BRB sidebands at `f ± 2sf`, SWF harmonics and rush harmonics ratio) manifest exclusively in the frequency domain. This confirms that FFT-based feature extraction is a prerequisite before any ML classifier can work.
 
 ---
 
@@ -90,7 +90,7 @@ Maximum Pearson correlation between raw signal amplitude and the condition label
 
 ### Preprocessing Pipeline
 1. Recording-level train/test split (80/20) — before windowing to prevent data leakage
-2. Sliding window segmentation — 1,024 samples, 50% overlap → ~26,000 labeled samples
+2. Sliding window segmentation — 1,024 samples, 50% overlap → ~64,000 labeled samples
 3. Four feature pipelines: Time-Domain · FFT · Wavelet · Hybrid
 4. StandardScaler fit on train set only · speed included as a feature
 
